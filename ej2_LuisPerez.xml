@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- Luis Pérez Cantarero -->
+<!DOCTYPE alumno [
+   <!ELEMENT alumno (nombre, edad, activo?)>
+   <!-- El orden estaba mal puesto, como nombre es el primer elemento que encontramos debe estar es este orden-->
+   <!ELEMENT edad (#PCDATA)>
+   <!ELEMENT nombre (#PCDATA)>
+   <!ELEMENT activo EMPTY>
+]>
+
+<alumno>
+  <nombre>Emiliana Piedra</nombre>
+  <edad>35</edad>
+</alumno>

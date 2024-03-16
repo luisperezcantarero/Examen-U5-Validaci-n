@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- Luis Pérez Cantarero-->
+<!DOCTYPE items SYSTEM "./ej1_LuisPerez.dtd">
+<items>
+  <triangulo base="100"/>
+  <mascota numero="5677"/>
+  <centro_educativo nombre="IES Gran Capitán"/>
+  <abono tipo="cheque">30,4</abono>
+</items>

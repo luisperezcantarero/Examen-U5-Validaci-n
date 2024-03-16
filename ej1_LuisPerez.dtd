@@ -1,0 +1,14 @@
+<!-- Luis Pérez Cantarero -->
+<!ELEMENT items ANY>
+<!ELEMENT triangulo (#PCDATA)>
+<!ATTLIST triangulo
+          base CDATA #REQUIRED>
+<!ELEMENT mascota (#PCDATA)>
+<!ATTLIST mascota
+          numero CDATA #REQUIRED>
+<!ELEMENT centro_educativo (#PCDATA)>
+<!ATTLIST centro_educativo
+          nombre CDATA #REQUIRED>
+<!ELEMENT abono (#PCDATA)>
+<!ATTLIST abono
+          tipo CDATA #REQUIRED>

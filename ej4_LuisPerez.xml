@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- Luis Pérez Cantarero-->
+<pelicula anno="2023" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./ej4_LuisPerez.xsd">
+   <título>Oppenheimer</título>
+   <nacionalidad>Reino Unido</nacionalidad>
+   <clasificación>+12</clasificación>
+</pelicula>

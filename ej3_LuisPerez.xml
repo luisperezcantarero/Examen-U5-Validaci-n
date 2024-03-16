@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- Luis Pérez Cantarero-->
+<!DOCTYPE biblioteca [
+<!ELEMENT biblioteca (libro+,prestamo+)>
+<!ELEMENT libro (titulo,autor)>
+<!ATTLIST libro id NMTOKEN #REQUIRED>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT autor (#PCDATA)>
+<!ELEMENT prestamo (fecha)>
+<!ATTLIST prestamo idref NMTOKEN #REQUIRED>
+<!ELEMENT fecha (#PCDATA)>
+]>
+<biblioteca>
+    <libro id="M2344">
+        <titulo>Don Quijote</titulo>
+        <autor>Cervantes</autor>
+    </libro>
+    <libro id="K9632">
+        <titulo>La Divina Comedia</titulo>
+        <autor>Dante</autor>
+    </libro>
+    <libro id="D2214">
+        <titulo>Harry Potter</titulo>
+        <autor>JKR</autor>
+    </libro>
+    <prestamo idref="L454">
+        <fecha>12/02/2024</fecha>
+    </prestamo>
+    <prestamo idref="P923">
+        <fecha>04/03/2024</fecha>
+    </prestamo>
+</biblioteca>

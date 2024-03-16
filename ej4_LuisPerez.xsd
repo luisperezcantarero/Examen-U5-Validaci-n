@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- Luis Pérez Cantarero-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="pelicula" type="peliculaType"/>
+  <xs:element name="título" type="xs:string"/>
+  <xs:element name="nacionalidad" type="xs:string"/>
+  <xs:element name="clasificación" type="xs:string"/>
+
+  <xs:complexType name="peliculaType">
+    <xs:sequence>
+      <xs:element name="título" type="xs:string"/>
+      <xs:element name="nacionalidad" type="xs:string"/>
+      <xs:element name="clasificación" type="xs:string"/>
+    </xs:sequence>
+    <xs:attribute name="anno" type="xs:gYear" use="optional"/>
+  </xs:complexType>
+</xs:schema>
